@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import BadgeCanvas from './components/BadgeCanvas';
-import { Upload, Camera, Type, User } from 'lucide-react';
+import { Upload, Camera, Type, User, Github } from 'lucide-react';
 
 const PLACEHOLDERS = [
   "Frontend Developer @ ExampleCorp",
@@ -151,6 +151,17 @@ function App() {
                 </p>
         </div>
         <p className="mt-4 font-bold text-sm">Built with ❤️ by FOSS United Mangalore for MangaloreFOSS 2026</p>
+        <div className="flex justify-center mt-4">
+          <a 
+            href="https://github.com/shanjiv177/MangaloreFOSSCard" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="flex items-center gap-2 bg-white text-black font-bold py-2 px-4 rounded-base border-2 border-border shadow-shadow transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none"
+          >
+            <Github size={20} />
+            <span>Source Code</span>
+          </a>
+        </div>
       </footer>
     </div>
   );
