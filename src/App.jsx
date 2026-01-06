@@ -144,7 +144,7 @@ function App() {
 
         </div>
       </div>
-      <footer className="mt-16 text-center border-t-2 border-border pt-8">
+      <footer className="mt-16 text-center border-t-2 border-border pt-8 mb-16">
         <div className="text-center space-y-4">
                 <p className="text-base font-medium">
                     Share on social media with <span className="bg-main px-1 border border-border rounded-sm font-bold">#MangaloreFOSS</span> and <span className="bg-main px-1 border border-border rounded-sm font-bold">#followthetiger</span>
